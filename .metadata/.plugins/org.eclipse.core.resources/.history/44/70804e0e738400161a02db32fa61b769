@@ -1,0 +1,37 @@
+package com.yog.exampes;
+
+public class Employee {
+
+	private long empid;
+	private String ename,email,mobno;
+	
+	//Generating Getters & Setters
+	public long getEmpid() {
+		return empid;
+	}
+	public void setEmpid(long empid) {
+		this.empid = empid;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getMobno() {
+		return mobno;
+	}
+	public void setMobno(String mobno) {
+		this.mobno = mobno;
+	}
+	
+	//Getters & Setters for Variables
+	
+	
+}

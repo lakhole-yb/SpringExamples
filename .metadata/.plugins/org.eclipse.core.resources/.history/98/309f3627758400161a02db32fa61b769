@@ -1,0 +1,9 @@
+package com.yog.examples;
+
+public class MainClass {
+
+	public static void Main(String args[]){
+		Resource resource=new ClassPathResource("applicationContext.xml");	
+	} 
+	
+}
